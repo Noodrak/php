@@ -46,10 +46,11 @@ echo "Sans tva : ";
 echo $c;
 echo "<br>";
 echo "Tva : ";
-echo $c /100 * 7.7;
+$tva = $c /100 * 7.7;
+echo $tva;
 echo "<br>";
 echo "Avec tva : ";
-echo $c + $c /100 * 7.7;
+echo $c + $tva;
 ?>
 </body>
 </html>

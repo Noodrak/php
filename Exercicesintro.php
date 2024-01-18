@@ -14,23 +14,45 @@
 <body>
   <!-- deux variable contienent le nom et le prenom et les affiche ensuite a l'aide d'un echo -->
   <h1>Exercice 1</h1>
-<?php
-$nom = "Bieri";
-$prenom = "Nicolas";
-echo "Bonjour $prenom $nom !";
-?>
+  <form action="" method="post">
+  <label for="nom">Nom</label>
+  <input type="text" id="nom" name="nom"><br><br>
+  <label for="prenom">Prenom</label>
+  <input type="text" id="prenom" name="prenom"><br><br>
+   <input type="submit" formmethod="post">
+   </form>
+    <?php
+    echo "Bonjour $_POST[nom] $_POST[prenom] !" ;
+    ?>
+
   <!-- deux variable condienent deux nombre et les additione en suite et affiche le résultat -->
 <h1>Exercice 2</h1>
+<form action="" method="post">
+  <label for="nbr1">Numéro 1</label>
+  <input type="text" id="nbr1" name="nbr1"><br><br>
+  <label for="nbr2">Numéro 2</label>
+  <input type="text" id="nbr2" name="nbr2"><br><br>
+   <input type="submit" formmethod="post">
+   </form>
 <?php
-$x = 3;
-$y = 4;
+$x = $_POST["nbr1"];
+$y = $_POST["nbr2"];
+echo "$_POST[nbr1] +  $_POST[nbr2]";
+echo "<br>";
 echo $x + $y; 
 ?>
   <!--deux variable condienent deux nombre et font toutes les formule possible -->
 <h1>Exercice 3</h1>
+<form action="" method="post">
+  <label for="nbr3">Numéro 1</label>
+  <input type="text" id="nbr3" name="nbr3"><br><br>
+  <label for="nbr4">Numéro 2</label>
+  <input type="text" id="nbr4" name="nbr4"><br><br>
+   <input type="submit" formmethod="post">
+   </form>
 <?php
-$x = 3;
-$y = 4;
+$x = $_POST["nbr3"];
+$y = $_POST["nbr4"];
 echo $x + $y; //addition de x et y//
 echo "<br>";
 echo $x - $y; //soustraction de x par y//

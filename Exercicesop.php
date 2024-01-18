@@ -1,3 +1,9 @@
+<!--
+  Nom : Bieri
+  Prenom : Nicolas
+  date : 18.01.2024
+  classe : i.fa-p1a
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +12,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- compare deux nombre  -->
     <h1>Exercice 1: Comparaison de Deux Nombres</h1>
 <?php
 $x = 2;
@@ -24,6 +31,7 @@ else if ( $x == $y )
     echo "$x est égale à $y <br>";
 }
 ?>
+    <!-- Switch en bool si le joueur a manger cela affiche tu as manger -->
     <h1>Exercices 2: Opérations Booléennes</h1>
     <?php
     $manger = false;
@@ -38,6 +46,7 @@ else if ( $x == $y )
         echo "je ne sais pas";
     }
 ?>
+    <!-- faire une calculatrice simple si le signe est + alors le deux chiffre s'additione , ... -->
     <h1>Exercices 3 : Calculatrice Simple</h1>
     <?php
 $a = 1;

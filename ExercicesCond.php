@@ -1,3 +1,9 @@
+<!--
+  Nom : Bieri
+  Prenom : Nicolas
+  date : 18.01.2024
+  classe : i.fa-p1a
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +12,7 @@
     <title>Document</title>
 </head>
 <body>
+   <!-- affiche quelle chifre est le plus grand -->
 <h1>Exercice 1: Comparaison de Nombres</h1>
 <?php
  $a = 2;
@@ -23,6 +30,7 @@
     echo "$a est plus petit que $b";
  }
 ?>
+<!-- affiche le jour de la semaine en fonction d'une variable qui contient en nbr qui est = a un jour de la semaine (1 pour lundi , ...) -->
 <h1>Exercice 2: Jour de la Semaine</h1>
 <?php
  $jourdelasemaine = 2;
@@ -55,6 +63,7 @@
     echo "on est dimanche";
  } 
 ?>
+<!-- si le nombre est plus grand allors il y a 10% de reduction -->
 <h1>Exercice 3: Réduction sur Achat</h1>
 <?php
  $a = 120;
@@ -71,6 +80,7 @@
     echo " car vous avez le droit a 0% de réduction";
  }
 ?>
+<!-- affiche le statut de la personne en fonction de son age -->
 <h1>Exercice 4: Catégorisation d'Âge</h1>
 <?php
  $age = 10;
